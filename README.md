@@ -59,6 +59,7 @@ itms-services://?action=download-manifest&amp;url=https://www.example.com/app/ma
 直接将此链接复制到Safari或者在App内直接openURL:是可以直接安装的。
 
 - 一键信任地址
+
 https://www.example.com/app/demo.mobileprovision
 
 
