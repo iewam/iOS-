@@ -54,7 +54,7 @@
 
 - 安装协议
 
-itms-services://?action=download-manifest&url=https://www.example.com/apps/download/mainifest.plist
+itms-services://?action=download-manifest&amp;url=https://www.example.com/apps/download/mainifest.plist
 
 直接将此链接复制到Safari或者在App内直接openURL:是可以直接安装的。
 
