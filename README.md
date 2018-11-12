@@ -1,6 +1,6 @@
 # iOS-企业包服务
 
-- 企业版分发的plist、icon、ipa下载url必须是https协议。
+- 企业版分发的plist、icon、ipa、.mobileprovision下载url必须是https协议。
 
 - 下载配置文件 ： manifest.plist
 
@@ -54,9 +54,13 @@
 
 - 安装协议
 
-itms-services://?action=download-manifest&amp;url=https://www.example.com/apps/download/mainifest.plist
+itms-services://?action=download-manifest&amp;url=https://www.example.com/app/mainifest.plist
 
 直接将此链接复制到Safari或者在App内直接openURL:是可以直接安装的。
+
+- 一键信任地址
+https://www.example.com/app/demo.mobileprovision
+
 
 做一个html下载页面。
 
